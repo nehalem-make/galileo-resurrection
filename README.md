@@ -13,6 +13,7 @@ Features:
 * Alpine Linux Image
 * Arch linux (32bit) Image
 * Networking and SSH initialised on first boot. Just find your board's IP address and ssh.
+* Credentials: galileo/galileo root/root(no ssh)
 
 ## TODO:
 
@@ -29,6 +30,7 @@ Features:
 * Your board will cease to work with Arduino etc, it will become an ordinary Linux machine. To revert simply remove the SD card.
 * Gen1 has been tested by me, Gen2 may work.
 * Haven't tested GPIO stuff.
+
 
 
 
