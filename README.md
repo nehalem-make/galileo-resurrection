@@ -32,7 +32,7 @@ Features:
 ## Things you should know
 
 * This is a slow board. 400mhz and 256MB of ram.
-* This board does not have normal features of a modern x64 processor(no MMX for example). And Go executables will not work!
+* This board does not have normal features of a modern x86 processor(no MMX for example). And Go executables will not work!
 * I will not be very proactive keeping this project up-to-date - security updates won't be quick. Don't store your Bitcoin wallet on it.
 * Your board will cease to work with Arduino etc, it will become an ordinary Linux machine. To revert simply remove the SD card.
 * Gen1 has been tested by me, Gen2 may work.
