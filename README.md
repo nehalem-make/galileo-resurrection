@@ -15,7 +15,7 @@ This project supplies real Linux distros on a Mainline kernel to use on your gal
 
 Features:
 
-* Mainline Linux 3.10.x kernel
+* Mainline Linux 5.11.13 kernel
 * Alpine Linux Image - Nice and light - suits for board well
 * Arch linux (32bit) Image - Slightly heavy, rolling release and good selection of packages
 * Minimal buildroot Image (console access only - only as an example)
