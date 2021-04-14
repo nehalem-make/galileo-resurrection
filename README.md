@@ -19,7 +19,7 @@ Features:
 * Alpine Linux Image - Nice and light - suits for board well
 * Arch linux (32bit) Image - Slightly heavy, rolling release and good selection of packages
 * Minimal buildroot Image (console access only - only as an example)
-* Networking and SSH initialised on first boot. Just find your board's IP address and ssh.
+* Networking and SSH initialised on first boot(not on buildroot image). Just find your board's IP address and ssh.
 * Credentials: galileo/galileo root/root(no ssh)
 
 ## TODO:
@@ -42,6 +42,10 @@ Features:
 ## Instructions
 
 First download one of the built images from https://github.com/dmarkey/galileo-resurrection/releases/tag/Resurrection-2021-April
+
+sdcard-alpine.img.gz -> Alpine linux 3.13
+sdcard-arch.img.gz -> Arch linux
+sdcard.img -> Buildroot
 
 Uncompress the chosed image, find a Micro SD card that is 8GB+ and use dd to write the image to the SD card. Insert into your Galileo and power on. Check your router for the assigned IP address "galileo" is the configured hostname and SSH as `galileo/galileo`. `su -` to root using password `root`
 
