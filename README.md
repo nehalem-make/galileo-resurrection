@@ -3,6 +3,12 @@ Do you have an old Intel Galileo and thought it was for the trash as it's a dead
 
 I thought that too! With a little help from some Intel engineers I was able to breathe some life into my old Galileo!
 
+
+![image](https://user-images.githubusercontent.com/1159924/114682307-de4ec180-9d06-11eb-9cbf-6824e44cb36a.png)
+
+![image](https://user-images.githubusercontent.com/1159924/114681955-8ca63700-9d06-11eb-85a9-0f5da03979d4.png)
+
+
 ## What does this project achieve?
 
 This project supplies real Linux distros on a Mainline kernel to use on your galileo. Simple burn the chosen image onto an SD card and plug it in!
