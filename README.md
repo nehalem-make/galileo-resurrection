@@ -16,9 +16,9 @@ This project supplies real Linux distros on a Mainline kernel to use on your gal
 Features:
 
 * Mainline Linux 3.10.x kernel
-* Minimal buildroot Image (console access only)
 * Alpine Linux Image - Nice and light - suits for board well
 * Arch linux (32bit) Image - Slightly heavy, rolling release and good selection of packages
+* Minimal buildroot Image (console access only - only as an example)
 * Networking and SSH initialised on first boot. Just find your board's IP address and ssh.
 * Credentials: galileo/galileo root/root(no ssh)
 
@@ -38,6 +38,12 @@ Features:
 * Gen1 has been tested by me, Gen2 may work.
 * Haven't tested GPIO stuff.
 * Some packages are affected by the "Segfault" but for Quark. Seems to affect networking applications the worst, nginx and git for example.
+
+## Instructions
+
+First download one of the built images from https://github.com/dmarkey/galileo-resurrection/releases/tag/Resurrection-2021-April
+
+Uncompress the chosed image, find a Micro SD card that is 8GB+ and use dd to write the image to the SD card. Insert into your Galileo and power on. Check your router for the assigned IP address "galileo" is the configured hostname and SSH as `galileo/galileo`. `su -` to root using password `root`
 
 
 
