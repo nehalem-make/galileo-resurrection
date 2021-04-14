@@ -37,7 +37,7 @@ Features:
 * Your board will cease to work with Arduino etc, it will become an ordinary Linux machine. To revert simply remove the SD card.
 * Gen1 has been tested by me, Gen2 may work.
 * Haven't tested GPIO stuff.
-* Some packages are affected by the "Segfault" but for Quark. Seems to affect networking applications the worst, nginx and git for example.
+* Some packages are affected by the "Segfault" bug for Quark. Seems to affect networking applications the worst, nginx and git for example.
 
 ## Instructions
 
