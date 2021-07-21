@@ -33,7 +33,7 @@ Vagrant.configure('2') do |config|
 		apt-get -q update
 		apt-get purge -q -y snapd lxcfs lxd ubuntu-core-launcher snap-confine
 		apt-get -q -y install build-essential libncurses5-dev \
-			git bzr cvs mercurial subversion unzip bc zstd
+			git bzr cvs mercurial subversion unzip bc zstd libssl-dev
 		apt-get -q -y autoremove
 		apt-get -q -y clean
 		update-locale LC_ALL=C
